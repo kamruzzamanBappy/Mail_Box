@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "ngx-toastr/toastr";
+@import "./assets/scss/button";
+@import "./assets/scss/form";
+body {
+  font-family: "Robato", sans-serif;
+  @apply bg-gray-50;
+}
